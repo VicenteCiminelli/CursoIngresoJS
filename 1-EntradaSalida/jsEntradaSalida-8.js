@@ -15,6 +15,6 @@ function SacarResto()
   resultado = parseInt(n1) % parseInt(n2);
 
   alert("El resto es : " +resultado);
-
+//
 
 }
