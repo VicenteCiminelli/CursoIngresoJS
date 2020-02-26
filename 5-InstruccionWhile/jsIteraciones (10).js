@@ -7,8 +7,8 @@ function mostrar()
 	var contadorNegativos = 0;
 	var contadorCeros = 0;
 	var contadorDePares = 0;
-	var promedioDePositivos;
-	var promedioDeNegativos;
+	var promedioDePositivos = 0;
+	var promedioDeNegativos = 0;
 	var diferenciaPositivosYNegativos;
 
 
@@ -20,6 +20,7 @@ function mostrar()
 		while(isNaN(numero)) {
 			var numero = prompt("ingrese un numero valido"); 
 		    numero = parseInt(numero);
+	    }			
 		
 	        if (numero > 0){
 				//punto 2
@@ -40,7 +41,6 @@ function mostrar()
 			if (numero % 2 == 0){
 				contadorDePares++;
 			}
-	    }
      respuesta = confirm("¿Desea Continuar?");
 	}//fin while
 
@@ -57,18 +57,26 @@ function mostrar()
    //punto 9
    diferenciaPositivosYNegativos = sumaPositivos - sumaNegativos;
 
-   document.write("promedio De Positivos: " + promedioDePositivos + "<br>")
-   document.write("promedio De Negativos: " + promedioDeNegativos + "<br>")
-   document.write("diferencia: " + diferenciaPositivosYNegativos + "<br>")
-   document.write("suma de negativos: " + sumaNegativos + "<br>")
-   document.write("suma de positivos: " + sumaPositivos + "<br>")
-   document.write("contador de Positivos: " + contadorPositivos + "<br>")
-   document.write("contador de Negativos: " + contadorNegativos + "<br>")
-   document.write("cantidad de ceros: " + contadorCeros + "<br>")
-   document.write("cantidad de numeros pares: " + contadorDePares + "<br>")
-
-
-
+   document.write("promedio De Positivos: " + promedioDePositivos + "<br />")
+   document.write("promedio De Negativos: " + promedioDeNegativos + "<br />")
+   document.write("diferencia: " + diferenciaPositivosYNegativos + "<br />")
+   document.write("suma de negativos: " + sumaNegativos + "<br />")
+   document.write("suma de positivos: " + sumaPositivos + "<br />")
+   document.write("contador de Positivos: " + contadorPositivos + "<br />")
+   document.write("contador de Negativos: " + contadorNegativos + "<br />")
+   document.write("cantidad de ceros: " + contadorCeros + "<br />")
+   document.write("cantidad de numeros pares: " + contadorDePares + "<br />")
 
 
 }
+
+/* do{
+	do{
+		numero = prompt("ingrese un numero")
+		numero = parseInt(numero)
+		}while(isNaN(numero))
+
+		respuerta = 
+}while)(){
+
+}*/
