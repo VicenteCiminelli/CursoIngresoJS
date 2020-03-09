@@ -10,6 +10,7 @@ var respuesta;
 function comenzar()
 {
 
+
 	
 
 }//FIN DE LA FUNCIÓN
